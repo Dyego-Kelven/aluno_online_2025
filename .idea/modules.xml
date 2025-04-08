@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/3P KELSON.iml" filepath="$PROJECT_DIR$/.idea/3P KELSON.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aluno_online_2025_1/api.iml" filepath="$PROJECT_DIR$/aluno_online_2025_1/api.iml" />
+    </modules>
+  </component>
+</project>
