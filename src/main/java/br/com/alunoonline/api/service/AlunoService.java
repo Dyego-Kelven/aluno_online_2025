@@ -34,10 +34,12 @@ public class AlunoService {
     }
 
     public void updateAlunoById(Long idAluno, Aluno aluno){
+        //PRIMIERO PASSO: VER SE ALUNO EXISTE NO BD
         Optional<Aluno> alunoDataBase = searchAlunoById(idAluno);
 
+        //E SE NAO EXISTIR ESSE ALUNO ?
         if (alunoDataBase.isEmpty()){
-            throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Aluno não encontrado do banco de dados");
+            throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Aluno não encontrado no banco de dados");
         }
 
         Aluno alunoEdit = alunoDataBase.get();
