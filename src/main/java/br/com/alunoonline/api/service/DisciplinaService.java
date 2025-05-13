@@ -23,6 +23,6 @@ public class DisciplinaService {
 
     public List<Disciplina> listarDisciplinasPorIdProfessor(Long idProfessor) {
 
-        return disciplinaRepository.findByProfessorIdProfessor(idProfessor);
+        return disciplinaRepository.findByProfessorId(idProfessor);
     }
 }

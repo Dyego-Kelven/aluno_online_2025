@@ -21,7 +21,7 @@ public class Professor {
 
     private String email;
 
-    private String CPF;
+    private String Cpf;
 
 
 }
